@@ -70,10 +70,15 @@ Here's a bit of loaf!!
 
 
 Even though i was successful enough in doing so , I could not figure out how to run the ping - pong game . 
-What I understood from the video given was that , the first turtle is given a specific direction and constant speed . Whereas the other turtle is controlled by us . I could’nt majorly figure out , what commands to give in order for:
+What I understood from the video given was that ,
+the first turtle is given a specific direction and constant speed .
+Whereas the other turtle is controlled by us . I could’nt majorly figure out , what commands to give in order for:
 A single turtle attaining and maintaining a constant speed.
+
 Simultaneously we are controlling the second turtle 
-After one turtle encounters the other turtle , the first turtle changes direction .   
+
+After one turtle encounters the other turtle , the first turtle changes direction . 
+
 SInce I could’nt figure out how to do that on turtlesim , I wrote a python script which does the same thing . 
 
 [Task 1 Subtask 2 code](https://github.com/rathneesh06/abhiyaan-app/blob/main/task_1_subtask_2.py)
