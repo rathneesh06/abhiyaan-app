@@ -51,9 +51,9 @@ CNN course from youtube
 
 Not a course , but have worked on Unet in AI Club
 
-Task 1:
+# TASK1 
 
-Subtask2: Turtle ping-pong
+  __Subtask2__: Turtle ping-pong
 Firstly after downloading turtlesim , i ran the command:
 ros2 run turtlesim turtlesim_node
 
@@ -84,3 +84,18 @@ SInce I could’nt figure out how to do that on turtlesim , I wrote a python scr
 [Task 1 Subtask 2 code](https://github.com/rathneesh06/abhiyaan-app/blob/main/task_1_subtask_2.py)
 
 [Here](https://github.com/rathneesh06/abhiyaan-app/blob/main/task1_subtask2_sim.mov) is the running code
+
+
+# TASK 3
+
+__Subtask A__:
+The three main elements for football  are :
+
+    1. Coordination: Every bot has to coordinate with each other to play
+    
+    2. Cooperation : Every robot has to cooperate with each other , for exaample if one fails , the others have to take 
+    initiative and fill in the roll of the failed robot 
+    
+    3. Collaboration: The 3 robots have to act complementary to each other
+Taxonomy:
+
