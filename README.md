@@ -62,6 +62,7 @@ Through this I was able to control the turtle
 After using th rqt command to spawn the second turtle 
  I used the following command on another terminal  :ros2 run turtlesim turtle_teleop_key --ros-args --remap turtle1/cmd_vel:=turtle_2/cmd_vel
 This enabled me to control the second spawned turtle 
+
 [Bit of loaf!](https://github.com/rathneesh06/abhiyaan-app/blob/main/task1_subtask_2_turtlesim.png)
 
 
