@@ -71,4 +71,4 @@ Simultaneously we are controlling the second turtle
 After one turtle encounters the other turtle , the first turtle changes direction .   
 SInce I could’nt figure out how to do that on turtlesim , I wrote a python script which does the same thing . 
 
-
+[Task 1 Subtask 2 code](https://github.com/rathneesh06/abhiyaan-app/blob/main/task_1_subtask_2.py)
