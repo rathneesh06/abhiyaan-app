@@ -52,6 +52,7 @@ CNN course from youtube
 Not a course , but have worked on Unet in AI Club
 
 Task 1:
+
 Subtask2: Turtle ping-pong
 Firstly after downloading turtlesim , i ran the command:
 ros2 run turtlesim turtlesim_node
