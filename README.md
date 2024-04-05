@@ -98,10 +98,23 @@ The three main elements for football  are :
     
     3. Collaboration: The 3 robots have to act complementary to each other
 Taxonomy:
+
 Taxonomy in breif describes the Architecture , type of communications , heterogenity
+To select the Type of Architecture , we need to consider two possibilties :
+
+     1. One player in the team has the ball: In this case the architecture has to be centralized and decentralized . This is because the other players have to coordinate with the player having the ball if he's gonna pass it or if he is gonna shoot . And analysing the below comunication topolgies , this case needs a fully connected network .
+     2. No player in the team has the ball : In this case it is too we need a fully connected network . Since , each player has to coordinate with the other player and simultaneously approach the ball while still maintaining a seperation beyween each other.
+
+ Type of Communication:
+
+        Both implicit and explicit methods of communcation have to be done. For example, if a robot fails , before it does , it has to explicitly (communicate the unobservale stats) communicate.And implicit communication  involves communicating the observable states. 
+
+There is no heterogeneity as all the bots are the same.     
+     
 ![](https://github.com/rathneesh06/abhiyaan-app/blob/main/task3_subtaskA.png)
-Communication topologies:
 ![](https://github.com/rathneesh06/abhiyaan-app/blob/main/subtaska_task3.png)
+![](
+
 
 
 
