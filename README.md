@@ -98,9 +98,14 @@ The three main elements for football  are :
     
     3. Collaboration: The 3 robots have to act complementary to each other
 Taxonomy:
-![Taxonomy in breif describes the Architecture , type of communications , heterogenity](https://github.com/rathneesh06/abhiyaan-app/blob/main/task3_subtaskA.png)
+Taxonomy in breif describes the Architecture , type of communications , heterogenity
+![](https://github.com/rathneesh06/abhiyaan-app/blob/main/task3_subtaskA.png)
 Communication topologies:
-![Different types of communications](
+![](https://github.com/rathneesh06/abhiyaan-app/blob/main/subtaska_task3.png)
+
+
+
+
 
 
 
