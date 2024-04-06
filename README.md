@@ -104,7 +104,7 @@ One more round of searching!!!
 ![](https://github.com/rathneesh06/abhiyaan-app/blob/main/dadjoke2_3.png)
 __Pasta wayyyyyyy!!!!!!!!!!__ 
 
-__ After Searching so much, even the search bar is starting to blush__
+__After Searching so much, even the search bar is starting to blush__
 
 ALl the answers to the hints I found are :
 
@@ -114,7 +114,7 @@ ALl the answers to the hints I found are :
    
 3. Rebooted
 
-__After all the intenses smashing of the keyboard for almost 20 mins , here is the final termial with the end result!!!
+__After all the intenses smashing of the keyboard for almost 20 mins , here is the final termial with the end result!!!__
    ![](https://github.com/rathneesh06/abhiyaan-app/blob/main/enddadjoke.png)
 
 
