@@ -209,6 +209,8 @@ In the case below , the player nearest to the opponent with the ball , has to st
  
  [here](https://github.com/rathneesh06/abhiyaan-app/blob/main/task3_subtask_b.mov) is the simulation
  
+ [here](https://github.com/rathneesh06/abhiyaan-app/blob/main/task3_subtaskb.py) is the code
+ 
  
 # TASK 4 
 
