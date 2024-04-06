@@ -91,7 +91,9 @@ def main(args=None):
 if __name__ == '__main__':
     main()
 
-After this , I added the line 'solution=capture_the_msg.solution:main' to the setup.py file
+After this , I added the line 'solution=capture_the_msg.solution:main' to the setup.py file![](https://github.com/rathneesh06/abhiyaan-app/blob/main/setup(.py).png)
+After this I ran the following commands which gave the following hint ![](
+
       
   __Subtask2__: Turtle ping-pong
 Firstly after downloading turtlesim , i ran the command:
