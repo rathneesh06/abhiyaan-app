@@ -56,9 +56,42 @@ Not a course , but have worked on Unet in AI Club
 __Subtask1__: Capture The Message
 
 Since we had subscribe to start here, I first went to source folder of ctm_ws and went to the solution.py file to subscribe to start/here 
-I took the subscription [code]( from ROS2 documention 
+I took the subscription code from ROS2 documention :
 
 
+import rclpy
+
+from rclpy.node import Node
+
+from std_msgs.msg import String
+
+class Subscriber(Node):
+
+    def __init__(self):
+        super().__init__('Rathneesh_Solver')
+        self.start_here = self.create_subscription(String,'start_here',self.start_here_callback,10)
+        self.start_here
+
+    def start_here_callback(self, msg):
+        print('The message received from topic /start_here is ' + msg.data)
+
+def main(args=None):
+
+    rclpy.init(args=args)
+    
+    minimal_subscriber = Subscriber()
+    
+    rclpy.spin(minimal_subscriber)
+    
+    minimal_subscriber.destroy_node()
+    
+    rclpy.shutdown()
+
+
+if __name__ == '__main__':
+    main()
+
+After this , I added the line 'solution=capture_the_msg.solution:main' to the setup.py file
       
   __Subtask2__: Turtle ping-pong
 Firstly after downloading turtlesim , i ran the command:
