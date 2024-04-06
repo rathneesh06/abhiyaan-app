@@ -184,27 +184,14 @@ There is no heterogeneity as all the bots are the same.
 
 One more major factor in football is the Formation Control:
 
-1. If one player has the ball , then the formation scheme will be a mixture of leader referenced and neighbor refernced . This is because , all the other 2 players need to follow and coordinate wiith the player having the ball while also coordinating with the neighbors to maintain a particualr seperation.
-    
-2. If no one player of the team has the ball , the scheme will be a mixture of Unit-centered and neighbor referenced. This is because the players need to allocate their positions based on the balls position which is the centre in this case and at the same time , ccoordinte nd maintain the seperation with the neighbor .  
-
 ![](https://github.com/rathneesh06/abhiyaan-app/blob/main/formation%20control.png)
-
-One major thing we have'nt considered till now is the opponents.
-If one player has the ball:
-
- The opponents have to be considered at obstacles and the robot has to cross/dodge the opponent or pass it to a neighbor which is closest to us and at the same time who is farthest away from an opponent. 
-
-If no player in the team has the ball:
-
- The teams approach should be a mixture of Unit-centered and Neighbor referenced scheme of formation control. 
  
 Considering all these factors into consideration we finally conclude the following :
 
 Case 1: 
 
-In the case below , the system wokrs in a leader referenced formation control. Where the player nearest to the ball is the leader. And relative to him , other two players allot their position . Two players communicate with the player nearest to the ball,hence, dynamically allocate their positions.This follows a Star Tropology network with a centralized architecture here as the player closest to the ball has to give commands to the other two players on where to go.
-![](https://github.com/rathneesh06/abhiyaan-app/blob/main/case1.jpeg)
+In the case below , the system wokrs in a leader referenced formation control. Where the player nearest to the ball is the leader. And relative to him , other two players allot their position . Two players communicate with the player nearest to the ball,hence, dynamically allocate their positions.This follows a Star Tropology network with a centralized architecture here as the player closest to the ball has to give commands to the other two players on where to go. .Dotted lines show future path.
+![](https://github.com/rathneesh06/abhiyaan-app/blob/main/case1_1.jpeg)
 
 Case 2:
 
@@ -216,7 +203,11 @@ Case 3:
 In the case below , the player nearest to the opponent with the ball , has to start approaching the opponent to steal/defend .The other two players have to position themselves in such a way that if the opponent with the ball tries passing it to any of his teammates , we should be able to steal the ball.Dotted lines represent their future paths
 ![](https://github.com/rathneesh06/abhiyaan-app/blob/main/case3.jpeg)
 
+
+
  __Subtask B__:
+ 
+ here()
  
 
 # TASK 4 
