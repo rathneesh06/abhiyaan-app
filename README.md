@@ -131,10 +131,16 @@ If one player has the ball:
 If no player in the team has the ball:
 
  The teams approach should be a mixture of Unit-centered and Neighbor referenced scheme of formation control. 
+
+
+ __Subtask B__:
  
 
+# TASK 4 
 
+__Let us crack the pixelated mystaery__
 
+Firsstly I have found the zooming velocity accelerations , path of the blue ball in here
 
 
 
