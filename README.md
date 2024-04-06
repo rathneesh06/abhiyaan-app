@@ -53,6 +53,13 @@ Not a course , but have worked on Unet in AI Club
 
 # TASK1 
 
+__Subtask1__: Capture The Message
+
+Since we had subscribe to start here, I first went to source folder of ctm_ws and went to the solution.py file to subscribe to start/here 
+I took the subscription [code]( from ROS2 documention 
+
+
+      
   __Subtask2__: Turtle ping-pong
 Firstly after downloading turtlesim , i ran the command:
 ros2 run turtlesim turtlesim_node
