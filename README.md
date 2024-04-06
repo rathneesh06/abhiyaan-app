@@ -208,12 +208,13 @@ In the case below , the system wokrs in a leader referenced formation control. W
 
 Case 2:
 
-In the case below , the next position of the player with the ball is a straight line path to the goal post (disconsidering any opponents in front) .The system wokrs in a leader referenced formation control. Where the player with the ball acts as the leader. And relative to thim , other two players allot their position . The way the other two player allocate thier positions is  in such a way that it will become easier for player with the ball to pass the ball and move towards the goal post. The two players coordinate with each other and have to allocate the best position for the other player to pass the ball. This follows a Star Trpology network with a centralized architecture here as the player with the ball has to give commands to the other two players on where to go.
-![](https://github.com/rathneesh06/abhiyaan-app/blob/main/case2.jpeg)
+In the case below , the next position of the player with the ball is a straight line path to the goal post (disconsidering any opponents in front) .The system wokrs in a leader referenced formation control. Where the player with the ball acts as the leader. And relative to thim , other two players allot their position . The way the other two player allocate thier positions is  in such a way that it will become easier for player with the ball to pass the ball and move towards the goal post. The two players coordinate with each other and have to allocate the best position for the other player to pass the ball. This follows a Star Trpology network with a centralized architecture here as the player with the ball has to give commands to the other two players on where to go.Dotted lines show future path.
+![]()
 
 Case 3:
 
-In the case below , the player nearest to the opponent with the ball , has to start approaching the opponent to steal/defend .The other two players have to position themselves in such a way that if the opponent with the ball tries passing it to any of his teammates , we should be able to steal the ball.
+In the case below , the player nearest to the opponent with the ball , has to start approaching the opponent to steal/defend .The other two players have to position themselves in such a way that if the opponent with the ball tries passing it to any of his teammates , we should be able to steal the ball.Dotted lines represent their future paths
+![](https://github.com/rathneesh06/abhiyaan-app/blob/main/case3.jpeg)
 
  __Subtask B__:
  
