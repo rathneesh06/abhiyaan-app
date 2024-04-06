@@ -92,7 +92,8 @@ if __name__ == '__main__':
     main()
 
 After this , I added the line 'solution=capture_the_msg.solution:main' to the setup.py file![](https://github.com/rathneesh06/abhiyaan-app/blob/main/setup(.py).png)
-After this I ran the following commands which gave the following hint ![](
+After this I ran the following commands which gave the following hint ![](https://github.com/rathneesh06/abhiyaan-app/blob/main/task1_subtask1_1.png)
+
 
       
   __Subtask2__: Turtle ping-pong
