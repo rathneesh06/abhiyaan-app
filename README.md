@@ -201,7 +201,14 @@ If no player in the team has the ball:
  
 Considering all these factors into consideration we finally conclude the following :
 
-case 1: In the case below , the system wokrs in a leader referenced formation control. Where the player nearest to the ball acts as the leader. And relative to them , other two players allot their position . The way the other two player allocate thier positions in such a way that it will become easier for player with the ball to pass the ball and move towards the goal post. The two players coordinate with each other and have to allocate the best position for the other player to pass the ball. THhere is a fully connected network with a centralized mechanism here as the player closest to the ball has to give commands to the other two players on where to go.
+Case 1: 
+
+In the case below , the system wokrs in a leader referenced formation control. Where the player nearest to the ball acts as the leader. And relative to him , other two players allot their position . The way the other two player allocate thier positions is in such a way that it will become easier for player with the ball to pass the ball and move towards the goal post. The two players coordinate with each other and have to allocate the best position for the other player to pass the ball. There is a fully connected network with a centralized mechanism here as the player closest to the ball has to give commands to the other two players on where to go.
+![](https://github.com/rathneesh06/abhiyaan-app/blob/main/case1.jpeg)
+
+Case 2:
+
+In the case below , the system wokrs in a leader referenced formation control. Where the player with the ball acts as the leader. And relative to thim , other two players allot their position . The way the other two player allocate thier positions is  in such a way that it will become easier for player with the ball to pass the ball and move towards the goal post. The two players coordinate with each other and have to allocate the best position for the other player to pass the ball. There is a fully connected network with a centralized mechanism here as the player withthe ball has to give commands to the other two players on where to go.
 ![]()
 
  __Subtask B__:
