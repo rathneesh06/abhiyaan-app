@@ -93,9 +93,15 @@ if __name__ == '__main__':
 
 After this , I added the line 'solution=capture_the_msg.solution:main' to the setup.py file![](https://github.com/rathneesh06/abhiyaan-app/blob/main/setup(.py).png)
 After this I ran the following commands which gave the following hint ![](https://github.com/rathneesh06/abhiyaan-app/blob/main/task1_subtask1_1.png)
+Me being a curious mf searched it up on only to find ![](https://github.com/rathneesh06/abhiyaan-app/blob/main/dadjoke1.png)
+
+Since "you are welcome" is our next hint , I repeat the same process. So I subscirbed to "you are welcome"
+I repeated this process!!!
 
 
-      
+
+
+
   __Subtask2__: Turtle ping-pong
 Firstly after downloading turtlesim , i ran the command:
 ros2 run turtlesim turtlesim_node
