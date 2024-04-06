@@ -111,6 +111,8 @@ ALl the answers to the hints I found are :
 2. Oops
    
 3. Rebooted
+
+__After all the intenses smashing of the keyboard for almost 20 mins , here is the final termial with the end result!!!
    ![]()
 
 
