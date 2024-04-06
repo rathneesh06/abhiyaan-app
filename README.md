@@ -101,7 +101,17 @@ I repeated this process!!!
 ![](https://github.com/rathneesh06/abhiyaan-app/blob/main/dadjoke2_1.png)
 ![](https://github.com/rathneesh06/abhiyaan-app/blob/main/dadjoke2_2.png)
 One more round of searching!!!
-![]()
+![](https://github.com/rathneesh06/abhiyaan-app/blob/main/dadjoke2_3.png)
+__Pasta wayyyyyyy!!!!!!!!!!__ 
+__ After Searching so much, even the search bar is starting to blush__
+ALl the answers to the hints I found are :
+
+1. Bison
+   
+2. Oops
+   
+3. Rebooted
+   ![]()
 
 
   __Subtask2__: Turtle ping-pong
