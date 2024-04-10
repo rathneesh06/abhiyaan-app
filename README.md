@@ -217,6 +217,7 @@ In the case below , the player nearest to the opponent with the ball , has to st
 __Let us crack the pixelated mystaery__
 
 Firstly I have found the zooming velocity accelerations , path of the blue ball in [here](https://github.com/rathneesh06/abhiyaan-app/blob/main/task4_vid_1.py)
+Here is the video (
 
 
 
