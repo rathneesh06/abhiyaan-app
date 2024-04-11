@@ -131,9 +131,9 @@ In the case below , the player nearest to the opponent with the ball , has to st
 
 __Let us crack the pixelated mystaery__
 
-Firstly I have found the zooming velocity accelerations , path of the blue ball in [here](https://github.com/rathneesh06/abhiyaan-app/blob/main/task4_vid_1.py)
+Firstly I have found the zooming velocity accelerations , path of the blue ball in [here](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q4/task4_vid_1.py)
 
-[Here](https://github.com/rathneesh06/abhiyaan-app/blob/main/task4_sr.mov) is the video 
+[Here](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q4/task4_sr.mov) is the video 
 
 __Video containing multiple balls__:
 My ideation: The when the balls are together (not seperate) the code is not able to identiify the contours as seperate. So i have broken down the video into parts where the balls are actually seperate . But I was only able to find three long enough videos among all clips where all the balls actually seperate.
