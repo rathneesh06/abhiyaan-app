@@ -134,5 +134,14 @@ __Let us crack the pixelated mystaery__
 Firstly I have found the zooming velocity accelerations , path of the blue ball in [here](https://github.com/rathneesh06/abhiyaan-app/blob/main/task4_vid_1.py)
 [Here](https://github.com/rathneesh06/abhiyaan-app/blob/main/task4_sr.mov) is the video 
 
-[Here]() is the code
+__Video containing multiple balls__:
+My ideation: The when the balls are together (not seperate) the code is not able to identiify the contours as seperate. So i have broken down the video into parts where the balls are actually seperate . But I was only able to find three long enough videos among all clips where all the balls actually seperate.
+The three videos are:
+[1.]()
+[2.]()
+[3.]()
+My idea was to find the velocties and accelerations of these 3 videos and then extrapolate that. But It was not possible because at every frame , the acceleration and velocity are changing and I couldnt come up with a method of doing the extraplation. 
+[Here](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q4/task4_2_1.py) is the code
+
+
 
