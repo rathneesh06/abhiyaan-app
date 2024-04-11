@@ -127,3 +127,12 @@ In the case below , the player nearest to the opponent with the ball , has to st
  
  [here](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q2/task3_subtaskb.py) is the code
 
+# TASK 4
+
+__Let us crack the pixelated mystaery__
+
+Firstly I have found the zooming velocity accelerations , path of the blue ball in [here](https://github.com/rathneesh06/abhiyaan-app/blob/main/task4_vid_1.py)
+[Here](https://github.com/rathneesh06/abhiyaan-app/blob/main/task4_sr.mov) is the video 
+
+[Here]() is the code
+
