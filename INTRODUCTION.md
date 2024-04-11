@@ -139,9 +139,8 @@ My ideation: The when the balls are together (not seperate) the code is not able
 The three videos are:
 [1.](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q4/check.mp4)
 [2.](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q4/final.mp4)
-[3.]()
+[3.](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q4/god.mp4)
 My idea was to find the velocties and accelerations of these 3 videos and then extrapolate that. But It was not possible because at every frame , the acceleration and velocity are changing and I couldnt come up with a method of doing the extraplation. 
 [Here](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q4/task4_2_1.py) is the code
 
-
-
+One more idea that came to my mind was to consider the velocties and acceleration of the two balls who are together to be the same . I wanted to try this out too but my video editing software couldnt crop the video as the time of each clip is very less :( :(
