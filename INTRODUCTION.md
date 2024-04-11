@@ -131,7 +131,7 @@ In the case below , the player nearest to the opponent with the ball , has to st
 
 __Let us crack the pixelated mystaery__
 
-Firstly I have found the zooming velocity accelerations , path of the blue ball in ![here](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q4/task4_vid_1.py)
+Firstly I have found the zooming velocity accelerations , path of the blue ball in [here](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q4/task4_vid_1.py)
 
 [Here](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q4/task4_sr.mov) is the video 
 
@@ -145,3 +145,6 @@ My idea was to find the velocties and accelerations of these 3 videos and then e
 [Here](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q4/task4_2_1.py) is the code
 
 One more idea that came to my mind was to consider the velocties and acceleration of the two balls who are together to be the same . I wanted to try this out too but my video editing software couldnt crop the video as the time of each clip is very less :( :(
+
+
+
