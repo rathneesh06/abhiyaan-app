@@ -67,3 +67,63 @@ __After all the intense smashing of the keyboard for almost 20 mins , here is th
 __Here is the end script__
 ![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q1/task1ss_1.png)
 ![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q1/task1ss_2.png)
+
+
+# TASK 3
+
+__Subtask A__:
+The three main elements for football  are :
+
+1. Coordination: Every bot has to coordinate with each other bot to play .
+    
+2. Cooperation : Every robot has to cooperate with each other , for exaample if one fails , the others have to take 
+    initiative and fill in the roll of the failed robot 
+    
+3. Collaboration: The 3 robots have to act complementary to each other
+Taxonomy:
+
+Taxonomy in breif describes the Architecture , type of communications , heterogenity
+To select the Type of Architecture , we need to consider two possibilties :
+
+ 1. One player in the team has the ball: In this case the architecture has to be centralized and decentralized . This is because the other players have to coordinate with the player having the ball if he's gonna pass it or if he is gonna shoot . And analysing the below communication topolgies , this case needs a fully connected network .
+     
+2. No player in the team has the ball : In this case it is too we need a fully connected network . Since , each player has to coordinate with the other player and simultaneously approach the ball while still maintaining a seperation between each other.
+
+ Type of Communication:
+
+Both implicit and explicit methods of communcation have to be done. For example, if a robot fails , before it does , it has to explicitly (communicate the unobservale stats) communicate.And implicit communication  involves communicating the observable states. 
+
+There is no heterogeneity as all the bots are the same.  
+
+![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q2/task3_subtaskA.png)
+![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q2/subtaska_task3.png)
+
+One more major factor in football is the Formation Control:
+
+![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q2/formation%20control.png)
+ 
+Considering all these factors into consideration we finally conclude the following :
+
+Case 1: 
+
+In the case below , the system wokrs in a leader referenced formation control. Where the player nearest to the ball is the leader. And relative to him , other two players allot their position . Two players communicate with the player nearest to the ball,hence, dynamically allocate their positions.This follows a Star Tropology network with a centralized architecture here as the player closest to the ball has to give commands to the other two players on where to go. .Dotted lines show future path.
+![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q2/case1_1.jpeg)
+
+Case 2:
+
+In the case below , the next position of the player with the ball is a straight line path to the goal post (disconsidering any opponents in front) .The system wokrs in a leader referenced formation control. Where the player with the ball acts as the leader. And relative to thim , other two players allot their position . The way the other two player allocate thier positions is  in such a way that it will become easier for player with the ball to pass the ball and move towards the goal post. The two players coordinate with each other and have to allocate the best position for the other player to pass the ball. This follows a Star Trpology network with a centralized architecture here as the player with the ball has to give commands to the other two players on where to go.Dotted lines show future path.
+![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q2/case2_3.jpeg)
+
+Case 3:
+
+In the case below , the player nearest to the opponent with the ball , has to start approaching the opponent to steal/defend .The other two players have to position themselves in such a way that if the opponent with the ball tries passing it to any of his teammates , we should be able to steal the ball.Dotted lines represent their future paths
+![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q2/case3.jpeg)
+
+
+
+ __Subtask B__:
+ 
+ [here](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q2/task3_subtask_b.mov) is the simulation
+ 
+ [here](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q2/task3_subtaskb.py) is the code
+
