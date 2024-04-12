@@ -147,4 +147,10 @@ My idea was to find the velocties and accelerations of these 3 videos and then e
 One more idea that came to my mind was to consider the velocties and acceleration of the two balls who are together to be the same . I wanted to try this out too but my video editing software couldnt crop the video as the time of each clip is very less :( :(
 
 
+# TASK 5
+
+THe model that i have used for semantic segmentation is U-Net . It involved two  major parts . First part is the encoder and the next part is decoder .  The dowsamling part contains mupltiple layers of Double convolution and max pooling .The upsampling part contains multiple conv transpose layers .  During the downsampling , we successfully extract out the features in the image and we upsample to get back the resolution of the image . Skip connections are also used in in unet . By introducing skip connections in the encoder-decoded architecture, fine-grained details can be recovered in the prediction 
+
+This is the code for my model (https://colab.research.google.com/drive/1LAwXmjEeL_imS46asyMVAOvb0CYzVTZq?usp=sharing)
+
 
