@@ -107,7 +107,7 @@ Considering all these factors into consideration we finally conclude the followi
 Case 1: 
 
 In the case below , the system wokrs in a leader referenced formation control. Where the player nearest to the ball is the leader. And relative to him , other two players allot their position . Two players communicate with the player nearest to the ball,hence, dynamically allocate their positions.This follows a Star Tropology network with a centralized architecture here as the player closest to the ball has to give commands to the other two players on where to go. .Dotted lines show future path.
-![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q2/case1_1.jpeg)
+![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q2/case1_1%20(1).jpeg)
 
 Case 2:
 
