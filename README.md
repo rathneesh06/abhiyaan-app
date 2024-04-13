@@ -227,7 +227,7 @@ The dotted line is the actual path taken . Black spots are the spots that senors
 
 # TASK 7
 
-[This](https://github.com/rathneesh06/abhiyaan-app/tree/main/Q7) is my workspace 
+[This](https://github.com/rathneesh06/abhiyaan-app/tree/main/Q7/src%20task7/pygame1)is my source folder 
 My idea behind obstacle detection was that , if there is any red pixel in front of the car , the car has to move based on the rectangle centre of the block and car .
 Based on the width(60) of the car, window height wwe can find the detection area. 
 
