@@ -104,8 +104,6 @@ SInce I could’nt figure out how to do that on turtlesim , I wrote a python scr
 [Here](https://github.com/rathneesh06/abhiyaan-app/blob/main/task1_subtask2_sim.mov) is the running code
 
 
-
-
 # TASK 2
 
 __SubtaskA__
