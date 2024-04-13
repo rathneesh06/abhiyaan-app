@@ -220,6 +220,10 @@ Below is the kalman filter algorithm . Line 2 and 3 shown gives us the predicted
 The only difference between EKF and KF is that , EKF is used for non linear systems . For such cases , we write down the taylor expansions to a degree of one . 
 ![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q6/ekf5.png)
 
+Below figure gives us an demo simulation of EKF:
+The dotted line is the actual path taken . Black spots are the spots that senors can observe (landmarks) . After crossing the first landmark , the bot is kind of dragged towards the actual path due to the senors. Hence dotted lines gives us the man estimate of the trajectory . 
+![]()
+
 # TASK 7
 
 [This](https://github.com/rathneesh06/abhiyaan-app/tree/main/Q7) is my workspace 
