@@ -164,7 +164,7 @@ Based on the width(60) of the car, window height wwe can find the detection area
 
 The changes made in the code are :
 
-1)![]()
+1)![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q7/task7_1.png)
 2)![]()
 
 
