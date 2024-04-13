@@ -87,9 +87,5 @@ SInce I could’nt figure out how to do that on turtlesim , I wrote a python scr
 
 
 
-# TASK 
-
-
-
 
 
