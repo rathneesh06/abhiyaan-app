@@ -78,6 +78,7 @@ __Citings__:
 2.(https://www.reddit.com/) for dad jokes.
 
  __Subtask2__: Turtle ping-pong
+ 
 Firstly after downloading turtlesim , i ran the command:
 
 ros2 run turtlesim turtlesim_node
@@ -87,6 +88,7 @@ Then I ran the command: ros2 run turtlesim turtle_teleop_key
 Through this I was able to control the turtle
 
 After using th rqt command to spawn the second turtle 
+
  I used the following command on another terminal  :
  
  ros2 run turtlesim turtle_teleop_key --ros-args --remap turtle1/cmd_vel:=turtle_2/cmd_vel
@@ -122,7 +124,9 @@ __Citings__:
 # TASK 2
 
 __SubtaskA__
+
 Putting all the 3 behaviors together . This is the behavior tree:
+
 ![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q2/task2_1.jpeg)
 
 And the corresponding code of behavior tree is [here](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q2/behavior_tree.cpp)
@@ -139,6 +143,7 @@ __SubtaskB__
 The xml file for the above task is [here](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q2/tree.xml)
 
 I have made my strategy into a behavior tree and here it is:
+
 ![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q2/task2_b.jpeg)
 
 I have also amde an xml file for my strategy and [here](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q2/task2_B.xml) it is 
@@ -151,6 +156,7 @@ __Citings__
  # TASK 3
  
 __Subtask A__:
+
 The three main elements for football  are :
 
 1. Coordination: Every bot has to coordinate with each other bot to play .
@@ -228,12 +234,15 @@ The three videos are:
 [3.](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q4/god.mp4)
 
 My idea was to find the velocties and accelerations of these 3 videos and then extrapolate that. But It was not possible because at every frame , the acceleration and velocity are changing and I couldnt come up with a method of doing the extraplation. 
+
 [Here](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q4/task4_2_1.py) is the code
 
 One more idea that came to my mind was to consider the velocties and acceleration of the two balls who are together to be the same . I wanted to try this out too but my video editing software couldnt crop the video as the time of each clip is very less :( :(
 
 __Citings__:
+
 1.(https://docs.opencv.org/4.x/index.html)
+
 2.(https://chat.openai.com/) 
 
 # TASK 5
@@ -243,6 +252,7 @@ THe model that i have used for semantic segmentation is U-Net . It involved two 
 This is the code for my model (https://colab.research.google.com/drive/1LAwXmjEeL_imS46asyMVAOvb0CYzVTZq?usp=sharing)
 
 __Citings__:
+
 1. (https://www.kaggle.com/datasets/dansbecker/cityscapes-image-pairs)
 
 # TASK 6
