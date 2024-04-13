@@ -68,6 +68,20 @@ __Here is the end script__
 ![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q1/task1ss_1.png)
 ![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q1/task1ss_2.png)
 
+# TASK 2
+
+Putting all the 3 behaviors together . This is the behavior tree:
+![]()
+
+
+
+
+
+
+
+
+
+
 
 # TASK 3
 
