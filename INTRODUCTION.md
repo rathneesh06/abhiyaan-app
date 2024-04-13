@@ -95,37 +95,37 @@ Both implicit and explicit methods of communcation have to be done. For example,
 
 There is no heterogeneity as all the bots are the same.  
 
-![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q2/task3_subtaskA.png)
-![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q2/subtaska_task3.png)
+![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q3/task3_subtaskA.png)
+![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q3/subtaska_task3.png)
 
 One more major factor in football is the Formation Control:
 
-![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q2/formation%20control.png)
+![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q3/formation%20control.png)
  
 Considering all these factors into consideration we finally conclude the following :
 
 Case 1: 
 
 In the case below , the system wokrs in a leader referenced formation control. Where the player nearest to the ball is the leader. And relative to him , other two players allot their position . Two players communicate with the player nearest to the ball,hence, dynamically allocate their positions.This follows a Star Tropology network with a centralized architecture here as the player closest to the ball has to give commands to the other two players on where to go. .Dotted lines show future path.
-![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q2/case1_1%20(1).jpeg)
+![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q3/case1_1%20(1).jpeg)
 
 Case 2:
 
 In the case below , the next position of the player with the ball is a straight line path to the goal post (disconsidering any opponents in front) .The system wokrs in a leader referenced formation control. Where the player with the ball acts as the leader. And relative to thim , other two players allot their position . The way the other two player allocate thier positions is  in such a way that it will become easier for player with the ball to pass the ball and move towards the goal post. The two players coordinate with each other and have to allocate the best position for the other player to pass the ball. This follows a Star Trpology network with a centralized architecture here as the player with the ball has to give commands to the other two players on where to go.Dotted lines show future path.
-![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q2/case2_3.jpeg)
+![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q3/case2_3.jpeg)
 
 Case 3:
 
 In the case below , the player nearest to the opponent with the ball , has to start approaching the opponent to steal/defend .The other two players have to position themselves in such a way that if the opponent with the ball tries passing it to any of his teammates , we should be able to steal the ball.Dotted lines represent their future paths
-![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q2/case3.jpeg)
+![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q3/case3.jpeg)
 
 
 
  __Subtask B__:
  
- [here](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q2/task3_subtask_b.mov) is the simulation
+ [here](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q3/task3_subtask_b.mov) is the simulation
  
- [here](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q2/task3_subtaskb.py) is the code
+ [here](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q3/task3_subtaskb.py) is the code
 
 # TASK 4
 
