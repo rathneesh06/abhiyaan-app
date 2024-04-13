@@ -166,6 +166,21 @@ THe model that i have used for semantic segmentation is U-Net . It involved two 
 
 This is the code for my model (https://colab.research.google.com/drive/1LAwXmjEeL_imS46asyMVAOvb0CYzVTZq?usp=sharing)
 
+
+# TASK 6
+
+__One algo to rule them all__
+
+The Kalman filter in one word can be said as "averaging out". In the figure below , the blue cross gives us the predicted postion after covering the dotted lines , and green cross gives us the measured position and the red cross givees us the weighted mean of these two , which gives us the actual position . 
+ ![]()
+ Kalman filter is a a linear model and is only applicable to gaussian distrubutions.
+ In the below figure , Xt gives us the current predicted postion.Ut gives us how our position varies with the control system . And Zt gives us the measured position.
+
+
+
+
+
+
 # TASK 7
 
 [This](https://github.com/rathneesh06/abhiyaan-app/tree/main/Q7) is my workspace 
