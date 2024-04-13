@@ -164,7 +164,7 @@ Based on the width(60) of the car, window height wwe can find the detection area
 
 The changes made in the code are :
 
-1)![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q7/task7_1.png)
-2)![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q7/task7_2.png)
+1)I defined a function which detects the obstacles based on the colour of the pixel in front of the car.The function checks if any red pixel is there in the detected range in front of the car and if yes , it returs true and if not it returns false. ![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q7/task7_1.png)
+2)Based on what the above function says , and based on the centre of the car compared with the centre of the obstacle , the car moves to the left or right . If the obstacle centre is to the right of the car centre , the car moves left and viceversa. ![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q7/task7_2.png)
 
 
