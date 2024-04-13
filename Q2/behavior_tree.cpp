@@ -21,37 +21,37 @@ public:
   }
 };
 
-//class BallApproachPlayer2 : public BT::SyncActionNode
-//{
-//public:
-//  BallApproachPlayer2(const std::string& name) :
-//      BT::SyncActionNode(name, {})
-//  {}
+class BallApproachPlayer2 : public BT::SyncActionNode
+{
+public:
+  BallApproachPlayer2(const std::string& name) :
+      BT::SyncActionNode(name, {})
+  {}
+
+   //You must override the virtual function tick()
+  BT::NodeStatus tick() override
+  {
+    std::cout << "BallApproachPlayer2: " << this->name() << std::endl;
+    std::this_threads::sleep_for(5s)
+    return BT::NodeStatus::SUCCESS;
+  }
+};
+
+class Goalkick : public BT::SyncActionNode
+{
+public:
+  Goalkick(const std::string& name) :
+      BT::SyncActionNode(name, {})
+  {}
 
   // You must override the virtual function tick()
-//  BT::NodeStatus tick() override
-//  {
-//    std::cout << "BallApproachPlayer2: " << this->name() << std::endl;
-//    std::this_threads::sleep_for(5s)
-//    return BT::NodeStatus::SUCCESS;
-//  }
-//};
-
-//class Goalkick : public BT::SyncActionNode
-//{
-//public:
-//  Goalkick(const std::string& name) :
-//      BT::SyncActionNode(name, {})
-//  {}
-
-  // You must override the virtual function tick()
-//  BT::NodeStatus tick() override
-//  {
-//    std::cout << "Goalkick: " << this->name() << std::endl;
-//    std::this_threads::sleep_for(5s)
-//    return BT::NodeStatus::SUCCESS;
-//  }
-//};
+  BT::NodeStatus tick() override
+  {
+    std::cout << "Goalkick: " << this->name() << std::endl;
+    std::this_threads::sleep_for(5s)
+    return BT::NodeStatus::SUCCESS;
+  }
+};
 
 
 int main()
@@ -61,9 +61,9 @@ int main()
 
  factory.registerNodeType<ApproachBall>("ApproachBall");
 
-//factory.registerNodeType<ApproachObject>("BallApproachPlayer2");
+factory.registerNodeType<ApproachObject>("BallApproachPlayer2");
 
-//factory.registerNodeType<ApproachObject>("Goalkick");
+factory.registerNodeType<ApproachObject>("Goalkick");
 
  auto tree=factory.createTreeFromFile("/home/vboxuse/ros2_ws/src/behavior_tree/src/tree.xml");
 
