@@ -1,0 +1,9 @@
+<root main_tree_to_execute="MainTree" >
+     <BehaviorTree ID="MainTree">
+        <Sequence name="root_sequence">
+            <ApproachBall  name="ApproachBall"/>
+            <BallApproachPLayer2 name="BallApproachPlayer2"/>
+            <Goalkick name="Goalkick"/>
+        </Sequence>
+     </BehaviorTree>
+ </root>
