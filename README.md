@@ -123,6 +123,8 @@ The xml file for the above task is [here](https://github.com/rathneesh06/abhiyaa
 I have made my strategy into a behavior tree and here it is:
 ![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q2/task2_b.jpeg)
 
+I have also amde an xml file for my strategy and [here]() it is 
+
 # TASK 3
 
 __Subtask A__:
