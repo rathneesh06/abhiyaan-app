@@ -1,0 +1,49 @@
+<BehaviorTree>
+    <Sequence name="Match Progression">
+        <Selector name="Determine Possession">
+            <Condition name="Team A has Possession">
+                <Sequence name="Team A's Turn">
+                    <PrioritySelector name="Offensive Tactics">
+                        <Condition name="Space Available to Advance">
+                            <Action name="Advance with the Ball" />
+                        </Condition>
+                        <Condition name="Opponent's Defender Blocks">
+                            <Action name="Dribble Past Defender" />
+                        </Condition>
+                        <Condition name="Approaching Goal">
+                            <Action name="Shoot" />
+                        </Condition>
+                    </PrioritySelector>
+                    <PrioritySelector name="Defensive Tactics">
+                        <Condition name="Opponent has Ball Near Goal">
+                            <Action name="Defend Goal Area" />
+                        </Condition>
+                        <Condition name="Ball Recovered">
+                            <Action name="Counter-attack" />
+                        </Condition>
+                    </PrioritySelector>
+                </Sequence>
+            </Condition>
+            <Condition name="Team B has Possession">
+                <Sequence name="Team B's Turn">
+                    <PrioritySelector name="Defensive Tactics">
+                        <Condition name="Opponent's Forward Advances">
+                            <Action name="Block Forward" />
+                        </Condition>
+                        <Condition name="Opponent's Midfielders Advance">
+                            <Action name="Mark Opponent's Midfielders" />
+                        </Condition>
+                    </PrioritySelector>
+                    <PrioritySelector name="Offensive Tactics">
+                        <Condition name="Possess Ball in Midfield">
+                            <Action name="Pass to Forward" />
+                        </Condition>
+                        <Condition name="Near Opponent's Goal">
+                            <Action name="Shoot" />
+                        </Condition>
+                    </PrioritySelector>
+                </Sequence>
+            </Condition>
+        </Selector>
+    </Sequence>
+</BehaviorTree>
