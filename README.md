@@ -222,7 +222,7 @@ The only difference between EKF and KF is that , EKF is used for non linear syst
 
 Below figure gives us an demo simulation of EKF:
 The dotted line is the actual path taken . Black spots are the spots that senors can observe (landmarks) . After crossing the first landmark , the bot is kind of dragged towards the actual path due to the senors. Hence dotted lines gives us the man estimate of the trajectory . 
-![]()
+![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q6/ekfex.png)
 
 # TASK 7
 
