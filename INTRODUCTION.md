@@ -71,7 +71,9 @@ __Here is the end script__
 # TASK 2
 
 Putting all the 3 behaviors together . This is the behavior tree:
-![]()
+![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q2/task2_1.jpeg)
+
+And the corresponding code of behavior tree is [here]()
 
 
 
