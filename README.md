@@ -217,8 +217,8 @@ The Kalman filter in one word can be said as "averaging out". In the figure belo
 Below is the kalman filter algorithm . Line 2 and 3 shown gives us the predicted  mean and variance . Kt is the kalman gain which tells us about how much to trust the correction or the prediction. So at the end Ut is a weighed sum of the predicted belief and what is observed . Similaraly we get the varience. 
 ![]()
 
-The only difference between 
-
+The only difference between EKF and KF is that , EKF is used for non linear systems . For such cases , we write down the taylor expansions to a degree of one . 
+![]()
 
 # TASK 7
 
