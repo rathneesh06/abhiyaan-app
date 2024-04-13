@@ -19,7 +19,7 @@
                             <Action name="Defend Goal Area" />
                         </Condition>
                         <Condition name="Ball Recovered">
-                            <Action name="Counter-attack" />
+                            <Action name="Counter-attack" />       <!--counter attack has to be mapped to offense tactics priority selector-->
                         </Condition>
                     </PrioritySelector>
                 </Sequence>
@@ -30,16 +30,10 @@
                         <Condition name="Opponent's Forward Advances">
                             <Action name="Block Forward" />
                         </Condition>
-                        <Condition name="Opponent's Midfielders Advance">
-                            <Action name="Mark Opponent's Midfielders" />
-                        </Condition>
                     </PrioritySelector>
                     <PrioritySelector name="Offensive Tactics">
-                        <Condition name="Possess Ball in Midfield">
-                            <Action name="Pass to Forward" />
-                        </Condition>
                         <Condition name="Near Opponent's Goal">
-                            <Action name="Shoot" />
+                            <Action name="Shoot" />                 <!--shoot has to be mapped to offense tactics priority selector-->
                         </Condition>
                     </PrioritySelector>
                 </Sequence>
