@@ -209,16 +209,16 @@ This is the code for my model (https://colab.research.google.com/drive/1LAwXmjEe
 __One algo to rule them all__
 
 The Kalman filter in one word can be said as "averaging out". In the figure below , the blue cross gives us the predicted postion after covering the dotted lines , and green cross gives us the observed position and the red cross givees us the weighted mean of these two , which gives us the actual position . 
- ![]()
+ ![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q6/ekf1.png)
  Kalman filter is a a linear model and is only applicable to gaussian distrubutions.
  
  In the below figure , Xt gives us the current predicted postion.It gives us how our position varies with the control command. And Zt gives us the observed position.At,Bt are the matrices which gives us information about how the change is position, control command affects the predictions and measured values. 
-![]()
+![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q6/ekf2.png)
 Below is the kalman filter algorithm . Line 2 and 3 shown gives us the predicted  mean and variance . Kt is the kalman gain which tells us about how much to trust the correction or the prediction. So at the end Ut is a weighed sum of the predicted belief and what is observed . Similaraly we get the varience. 
-![]()
+![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q6/ekf4.png)
 
 The only difference between EKF and KF is that , EKF is used for non linear systems . For such cases , we write down the taylor expansions to a degree of one . 
-![]()
+![](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q6/ekf5.png)
 
 # TASK 7
 
