@@ -136,11 +136,14 @@ Firstly I have found the zooming velocity accelerations , path of the blue ball 
 [Here](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q4/task4_sr.mov) is the video 
 
 __Video containing multiple balls__:
+
 My ideation: The when the balls are together (not seperate) the code is not able to identiify the contours as seperate. So i have broken down the video into parts where the balls are actually seperate . But I was only able to find three long enough videos among all clips where all the balls actually seperate.
 The three videos are:
+
 [1.](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q4/check.mp4)
 [2.](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q4/final.mp4)
 [3.](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q4/god.mp4)
+
 My idea was to find the velocties and accelerations of these 3 videos and then extrapolate that. But It was not possible because at every frame , the acceleration and velocity are changing and I couldnt come up with a method of doing the extraplation. 
 [Here](https://github.com/rathneesh06/abhiyaan-app/blob/main/Q4/task4_2_1.py) is the code
 
@@ -152,5 +155,7 @@ One more idea that came to my mind was to consider the velocties and acceleratio
 THe model that i have used for semantic segmentation is U-Net . It involved two  major parts . First part is the encoder and the next part is decoder .  The dowsamling part contains mupltiple layers of Double convolution and max pooling .The upsampling part contains multiple conv transpose layers .  During the downsampling , we successfully extract out the features in the image and we upsample to get back the resolution of the image . Skip connections are also used in in unet . By introducing skip connections in the encoder-decoded architecture, fine-grained details can be recovered in the prediction 
 
 This is the code for my model (https://colab.research.google.com/drive/1LAwXmjEeL_imS46asyMVAOvb0CYzVTZq?usp=sharing)
+
+# TASK 7
 
 
