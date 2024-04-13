@@ -158,4 +158,13 @@ This is the code for my model (https://colab.research.google.com/drive/1LAwXmjEe
 
 # TASK 7
 
+[This]() is my workspace 
+My idea behind obstacle detection was that , if there is any red pixel in front of the car , the car has to move based on the rectangle centre of the block and car .
+Based on the width(60) of the car, window height wwe can find the detection area. 
+
+The changes made in the code are :
+
+1)![]()
+2)![]()
+
 
